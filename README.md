@@ -2,6 +2,8 @@
 
 Sample code used in article: [Mocking Elixir IO.gets with
 Agents](http://redgreenrepeat.com/2017/10/06/mocking-elixir-io-gets-with-agents/)
+and [More Mocking Elixir IO.gets with
+Agents](http://redgreenrepeat.com/2017/10/13/more-mocking-elixir-io-gets-with-agents/)
 
 How to use Elixir Agent to produce different output from the same `IO.gets()`
 call.
@@ -25,6 +27,7 @@ To follow in a Vagrant box, install
 $ git clone https://github.com/a-leung/mock_input.git
 $ cd mock_input
 $ vagrant up
+$ vagrant ssh
 $ cd /vagrant/
 $ mix test
 ```
